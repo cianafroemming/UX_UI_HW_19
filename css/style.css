@@ -31,6 +31,12 @@ header p {
 .headshot {
   max-width: 200px;
 }
+
+.headshot {
+  transform: scale(0.5); /* Initial scale */
+  transition: transform 1s; /* Transition over 1 second */
+}
+ 
 .content {
   max-width: 300px;
   margin: 0 auto;
@@ -94,6 +100,17 @@ footer li {
 }
 .img1 {
   grid-area: img1;
+}
+.img1:hover {
+  background-color: rgba(128, 160, 200, 0.2); 
+} 
+
+.img2:hover {
+  background-color: rgba(128, 160, 200, 0.2); 
+} 
+
+.img3:hover {
+  background-color: rgba(128, 160, 200, 0.2); 
 }
 .img2 {
   grid-area: img2;
